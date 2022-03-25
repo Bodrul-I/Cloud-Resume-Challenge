@@ -5,6 +5,12 @@ btn.onclick = () => {
  window.print()
 }
 
+// COUNTER CSS
+
+function websiteVisits(response) {
+ document.querySelector("#visits").textContent = response.value;
+}
+
 // FONTAWESOME CHECK JS
 
 //  window.onload = function () {
